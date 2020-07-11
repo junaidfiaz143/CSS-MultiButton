@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700&display=swap");
 body {
-  height: 100vh;
-  margin: 0;
-  display: grid;
-  place-items: center;
+  margin: 0 auto;
   background: rgba(205, 207, 219, 0.2);
 }
 
 .multi-button {
+  width: 221px;
   padding: 8px 10px;
   border-radius: 20px;
   background: #fff;
   border: 0.5px solid rgba(146, 152, 176, 0.4);
-  box-shadow: 0 0 10px rgba(146, 152, 176, 0.2), 4px 4px 10px rgba(146, 152, 176, 0.2);
+  /*box-shadow: 0 0 10px rgba(146, 152, 176, 0.2), 4px 4px 10px rgba(146, 152, 176, 0.2);*/
   cursor: default;
+  margin: 10px;
 }
+
 .multi-button button {
   border: 0 solid transparent;
   background: transparent;
@@ -33,24 +33,7 @@ body {
 .multi-button button {
   border-radius: 16px;
 }
-.multi-button button div {
-  position: absolute;
-  top: -43px;
-  left: calc(50% - 40px);
-  width: 80px;
-  font-size: 13px;
-  color: #fff;
-  background: rgba(20, 25, 36, 0.7);
-  border-radius: 16px;
-  line-height: 30px;
-  font-family: 'Raleway', Arial, sans-serif;
-  text-align: center;
-  font-weight: 500;
-  letter-spacing: 1px;
-  box-shadow: 0 0 5px rgba(39, 48, 68, 0.3), 1px 1px 5px rgba(39, 48, 68, 0.2);
-  display: none;
-  cursor: pointer;
-}
+  
 .multi-button button:hover {
   background: #f0f1f4;
 }
